@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.tema6.HelloController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <children>
+        <TextField fx:id="TeacherLogIn" layoutX="180" layoutY="180" prefHeight="25" prefWidth="200"/>
+        <Label fx:id="teacherNotFound" layoutX="250" layoutY="300" prefHeight="30" prefWidth="150"/>
+        <Button layoutY="240" layoutX="240" mnemonicParsing="false" onAction="#onTeacherLogInButtonClick" prefHeight="30" prefWidth="100" text="Log In"/>
+    </children>
+
+</AnchorPane>
